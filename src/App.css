@@ -1,0 +1,597 @@
+.container {
+  height: auto;
+  background: #F0EBFC;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ------------ Inicio Header ------------*/
+.header {
+  height: 50px;
+  background-color: #7d857a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nombre {
+  color: #F0EBFC;
+  width: 50%;
+  padding-top: 15px;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.menuheader {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.inicio {
+  padding-right: 15px;
+  color: #F0EBFC;
+  text-decoration: none;
+}
+
+.contacto {
+  padding-right: 15px;
+  padding-left: 15px;
+  color: #F0EBFC;
+  text-decoration: none;
+}
+
+/* ------------ Fin Header ------------*/
+
+/* ------------ Inicio Seccion Quien Soy ------------*/
+.quiensoy {
+  height: 260px;
+  background-color: #fbfbfc;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  display: flex;
+}
+
+.quiensoy_box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.micontenido {
+  width: 100%;
+  text-align: justify;
+  padding-left: 150px;
+}
+
+.micontenido h1 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.micontenido p {
+  padding-top: 5px;
+}
+
+.micontenido h2 {
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.btn_contactame {
+  width: 100%;
+  height: 50px;
+  padding-left: 150px;
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+.btn_contactame a {
+  background-color: #e65d19;
+  color: #F0EBFC;
+  display: block;
+  width: 100px;
+  height: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn_contactame a:hover {
+  background-color: #81330c;
+}
+
+.miimagen {
+  width: 50%;
+  padding-left: 150px;
+}
+
+.miimagen img {
+  width: 50%;
+  max-width: 100%;
+  display: block;
+}
+
+/* ------------ Fin Seccion Quien Soy ------------*/
+
+/* ------------ Inicio Seccion Mi Talento ------------*/
+.mitalento {
+  max-height: 240px;
+  background-color: #7d857a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #F0EBFC;
+
+}
+
+.mitalento_conten {
+  width: 50%;
+  font-size: 15px;
+  text-align: justify;
+  padding-left: 150px;
+  padding-bottom: 5px;
+}
+.mitalento_conten span {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.mitalento_conten p {
+  padding-top: 5px;
+}
+.mitalento_link {
+  width: 50%;
+  padding-left: 150px;
+  padding-bottom: 5px;
+}
+.mitalento_link p {
+  font-size: 15px;
+  text-align: justify;
+  padding-right: 25px;
+}
+
+.mitalento_link p a {
+  text-decoration: none;
+  color: #e65d19;
+}
+
+/* ------------ Fin Seccion Mi Talento ------------*/
+
+/* ------------ Inicio Seccion Mis Proyectos ------------*/
+.misproyectos {
+  height: 240px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: #fbfbfc;
+  display: flex;
+  flex-direction: column;
+}
+
+.misproyectos_conten {
+  padding-left: 150px;
+  padding-bottom: 20px;
+}
+
+.misproyectos_conten p {
+  font-size: 20px;
+}
+
+.misproyectos_conten p span {
+  font-weight: bold;
+}
+
+.misproyectos_grid {
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  column-gap: 10px;
+}
+
+.box_grid {
+  height: 160px;
+  /* background-color: #e65d19; */
+  padding: 0px 5px 5px 5px;
+  text-align: justify;
+  border-style: solid;
+  border-color: #b0b6a8;
+}
+
+.box_grid p a {
+  text-decoration: none;
+  color: #e65d19;
+}
+
+.btn_proyecto {
+  background-color: #e65d19;
+  color: #F0EBFC;
+  display: block;
+  width: 100px;
+  height: 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn_proyecto:hover {
+  background-color: #81330c;
+}
+
+/* ------------ Fin Seccion Mis Proyectos ------------*/
+
+/* ------------ Inicio Seccion Mis Contactos ------------*/
+
+.micontacto {
+  height: 210px;
+  background-color: #7d857a;
+  color: #F0EBFC;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0px;
+}
+
+.micontacto_conten {
+  width: 50%;
+  padding-left: 150px;
+  padding-right: 20px;
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.micontacto_conten span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.micontacto_conten p {
+  padding-top: 5px;
+}
+
+
+.micontacto_form {
+  width: 50%;
+  background-color: #fbfbfc;
+  padding: 10px 100px 5px 50px;
+}
+
+.micontacto_form .mi_form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn_form {
+  background-color: #e65d19;
+  color: #F0EBFC;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn_form:hover {
+  background-color: #81330c;
+}
+
+/* ------------ Fin Seccion Mis Contactos ------------*/
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+.class_error {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: red;
+  opacity: 0.8;
+  margin-top: -5px;
+}
+
+.class_message {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: green;
+  opacity: 0.8;
+  margin-top: -5px;
+}
+
+.footer {
+  height: 50px;
+  background-color: #141216;
+  text-align: center;
+  padding-top: 15px;
+}
+
+/*****************************************************/
+/* Medias query */
+@media screen and (min-width: 200px) and (max-width: 690px) {
+  html {
+    width: auto;
+  }
+  .container {
+    height: auto;
+  }
+  .nombre {
+    font-size: 15px;
+  }
+  .quiensoy {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+  .micontenido {
+    width: 200%;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .micontenido h1 {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+  .micontenido p {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .btn_contactame {
+    padding-left: 15px;
+    padding-top: 15px;
+    text-decoration: none;
+  }
+  .miimagen {
+    width: 50%;
+    padding-left: 15px;
+  }
+  .miimagen img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-left: 80px;
+  }
+  .mitalento {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    padding-top: 10px;
+    max-height: 280px;
+  }
+  .mitalento_conten {
+    width: 95%;
+    font-size: 12px;
+    text-align: justify;
+    padding-left: 15px;
+  }
+  .mitalento_conten span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .mitalento_link {
+    width: 100%;
+    padding-left: 15px;
+    padding-bottom: 5px;
+  }
+  .mitalento_link p {
+    width: 95%;
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 0px;
+    padding-top: 10px;
+  }
+  .misproyectos {
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 260px;
+  }
+  .misproyectos_conten {
+    padding-left: 15px;
+    padding-bottom: 20px;
+  }
+  
+  .misproyectos_conten p {
+    font-size: 12px;
+  }
+  
+  .misproyectos_conten p span {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .misproyectos_grid {
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  .box_grid {
+    height: 110px;
+    /* background-color: #e65d19; */
+    padding: 0px 5px 5px 5px;
+    text-align: justify;
+    border-style: solid;
+    border-color: #b0b6a8;
+    font-size: 12px;
+  }
+  .btn_proyecto {
+    background-color: #e65d19;
+    color: #F0EBFC;
+    display: block;
+    width: 100px;
+    height: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+  }
+  .micontacto {
+    height: auto;
+    background-color: #7d857a;
+    color: #F0EBFC;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .micontacto_conten {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    margin-top: 15px;
+  }
+  .micontacto_conten p span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .micontacto_conten p {
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+  .micontacto_form {
+    width: auto;
+    background-color: #fbfbfc;
+    padding: 10px 15px 5px 15px;
+  }
+  .footer {
+    height: auto;
+    background-color: #141216;
+    text-align: center;
+    padding-top: 15px;
+    /* margin-top: 100px; */
+    font-size: 12px;
+  }
+}
+
+ /*****************************************************/
+/* Medias query */
+@media screen and ( min-width: 700px) and (max-width: 1100px) {
+  html {
+    width: auto;
+  }
+  .container {
+    height: auto;
+  }
+  .nombre {
+    font-size: 15px;
+  }
+  /* ------------ Inicio Seccion Quien Soy ------------*/
+  .quiensoy {
+    height: auto;
+    background-color: #fbfbfc;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+  }
+  .micontenido {
+    width: 100%;
+    text-align: justify;
+    padding-left: 20px;
+  }
+  .micontenido h1 {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+  .micontenido h2 {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .micontenido p {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .btn_contactame {
+    padding-left: 20px;
+  }
+  .miimagen {
+    padding-left: 120px;
+  }
+  .miimagen img {
+    width: 70%;
+    max-width: 100%;
+    display: block;
+  }
+  /* ------------ Fin Seccion Quien Soy ------------*/
+
+  /* ------------ Inicio Seccion Mi Talento ------------*/
+  .mitalento {
+    height: auto;  
+  }
+  .mitalento_conten {
+    padding-left: 20px;
+    font-size: 12px;
+  }
+  .mitalento_conten span {
+    font-size: 15px;
+    font-weight: bold;
+  }  
+  .mitalento_link {
+    width: 50%;
+    padding-left: 70px;
+    padding-bottom: 5px;
+  }
+  .mitalento_link p {
+    font-size: 12px;
+  }
+  /* ------------ Fin Seccion Mi Talento ------------*/
+
+  /* ------------ Inicio Seccion Mis Proyectos ------------*/
+  .misproyectos {
+    height: auto;
+  }
+  .misproyectos_conten {
+    padding-left: 20px;
+  }  
+  .misproyectos_conten p {
+    font-size: 15px;
+  }
+  .misproyectos_grid {
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 1px;
+  }
+  .misproyectos_grid p {
+    font-size: 12px;
+  }
+  /* ------------ Fin Seccion Mis Proyectos ------------*/
+
+  /* ------------ Inicio Seccion Mis Contactos ------------*/
+
+  .micontacto {
+    height: auto;
+    margin-top: 5px;
+  }
+  .micontacto_conten {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .micontacto_conten p {
+    font-size: 12px;
+  }
+  .micontacto_conten p span {
+    font-size: 15px;
+  }
+  .micontacto_conten p span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .micontacto_form .mi_form {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
