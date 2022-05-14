@@ -1,23 +1,12 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment } from 'react';
 import '../App.css';
-
-
 
 const Misproyectos = () => {
 
-    
-    const [pagina, guardarPagina] = useState({});
-
-    const consultarAPI = async (url) => {
-      //console.log('consultando...');
-      const windowOpen = window.open(url, '_blank');
-      const api = await fetch(windowOpen);
-      const pagina = api
-      //console.log(frase[0]);
-      guardarPagina(pagina);
+    const consultarAPI = (url) => {
+      const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+      if (newWindow) newWindow.opener = null
     }
-  
-    /* window.location.href = "https://volumenhoyoreact.netlify.app"; */
     
     return ( 
       <Fragment>
